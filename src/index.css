@@ -1,5 +1,32 @@
+@font-face {
+  font-family: 'SegoeUI-Bold-Italic';
+  src: local('SegoeUI-Bold-Italic'), url('./1-Assets/fonts/Segoe-UI-Bold-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SegoeUI-Bold';
+  src: local('SegoeUI-Bold'), url('./1-Assets/fonts/Segoe-UI-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SegoeUI-SemiBold';
+  src: local('SegoeUI-SemiBold'), url('./1-Assets/fonts/Segoe-UI-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SegoeUI-Italic';
+  src: local('SegoeUI-Italic'), url('./1-Assets/fonts/Segoe-UI-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI'), url('./1-Assets/fonts/Segoe-UI.ttf') format('truetype');
+}
+
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +38,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

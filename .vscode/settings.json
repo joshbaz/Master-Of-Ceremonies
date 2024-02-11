@@ -1,0 +1,11 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.associations": {
+      "6-Views": "Views",
+      "5-Store": "Redux-actions",
+      "4-Routes": "Routes",
+      "3-Middleware": "Middleware",
+      "2-Components": "Svg",
+      "1-Assets": "Template"
+    }
+}
