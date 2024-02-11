@@ -8,8 +8,8 @@ export const vCOLORS = {
   mTextLinks: "#b3e1fa",
   mTextBorderHover: "#b3e1fa",
   menuItemBg: "rgba(238,241,244,10%)",
-  menuBg: "#0a0604",
-  darkBg: "#0a0604",
+  menuBg: "#080808",
+  darkBg: "#080808",
   lightBg: "#0a0604",
   footerColor: "#EDEBE9",
 };
