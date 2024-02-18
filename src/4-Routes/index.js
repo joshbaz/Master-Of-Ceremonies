@@ -14,9 +14,9 @@ const AllRoutes = () => {
         <Route exact path="/" element={<Home />} errorElement={<ErrorPage />} />
         <Route exact path="/about" element={<About />} errorElement={<ErrorPage />} />
         <Route exact path="/services" element={<Services />} errorElement={<ErrorPage />} />
-        <Route exact path="/joinus" element={<ServiceBooking />} errorElement={<ErrorPage />} />
+        <Route exact path="/joinus" element={<ApplicationUpload />} errorElement={<ErrorPage />} />
         <Route exact path="/contact" element={<Contact />} errorElement={<ErrorPage />} />
-        <Route exact path="/applications" element={<ApplicationUpload />} errorElement={<ErrorPage />} />
+        <Route exact path="/applications" element={<ServiceBooking />} errorElement={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   );
